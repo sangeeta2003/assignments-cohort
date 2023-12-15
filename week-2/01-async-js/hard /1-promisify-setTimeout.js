@@ -3,17 +3,15 @@
 */
 
 function wait(n) {
-    return new Promise((resolve) => {
-        setTimeout(function(){
-
-        },1000)
-        resolve(`promise resolved after ${n}`)
-    })
+  return new Promise(resolve => {
+    setTimeout(function () {}, 1000)
+    resolve(`promise resolved after ${n}`)
+  })
 }
-function setWait(n){
-    console.log(n)
+function setWait(n) {
+  console.log(n)
 }
 wait().then(setWait)
-console.log("hey")
+console.log('hey')
 
-module.exports = wait;
+module.exports = wait

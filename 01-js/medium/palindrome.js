@@ -4,7 +4,7 @@
 */
 
 function isPalindrome(str) {
-  return true;
+  return true
 }
 
-module.exports = isPalindrome;
+module.exports = isPalindrome

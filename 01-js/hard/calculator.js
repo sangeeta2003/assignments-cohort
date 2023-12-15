@@ -18,4 +18,4 @@
 
 class Calculator {}
 
-module.exports = Calculator;
+module.exports = Calculator

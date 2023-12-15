@@ -5,6 +5,20 @@
  */
 
 function sleep(milliseconds) {
+  return new Promise(function (resolve) {
+    setTimeout(() => {
+      resolve(`it take time ${milliseconds}`)
+    }, milliseconds)
+  })
 }
+const millisecondsToWait = 3000
 
-module.exports = sleep;
+sleep(millisecondsToWait)
+  .then(result => {
+    console.log(result)
+  })
+  .catch(error => {
+    console.error(error)
+  })
+
+module.exports = sleep
