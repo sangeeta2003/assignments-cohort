@@ -26,4 +26,5 @@ function newClock(){
     
 }
 setInterval(newClock,1000)
+
 newClock()
