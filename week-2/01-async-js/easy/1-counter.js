@@ -6,5 +6,6 @@ let count = 0;
 function counter (){
     count ++;
     console.log("hello world");
+    setInterval(counter,1000);
 }
-setInterval(counter,1000);
+counter()
