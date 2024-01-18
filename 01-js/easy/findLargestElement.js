@@ -5,8 +5,6 @@
   - Output: 9
 */
 
-function findLargestElement(numbers) {
-    
-}
+function findLargestElement(numbers) {}
 
-module.exports = findLargestElement;
+module.exports = findLargestElement
