@@ -6,13 +6,21 @@ export function Assignment1() {
     const [count, setCount] = useState(0);
 
     // Your code starts here
-    function handleIncrement() {
+    const handleIncrement=(()=>{
+setCount(()=>{
+  return  count + 1
+})
+    }) 
 
-    }
+    
 
-    function handleDecrement() {
+    const handleDecrement=(()=>{
+setCount(()=>{
+    return count-1;
+})
+    }) 
         
-    }
+    
     // Your code ends here
 
     return (
